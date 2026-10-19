@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+</head>
+<body>
+    <h1>COMPONENTE PRÁCTICO</h1>
+    <p>{{ mensaje }}</p>
+
+    <h3>Integrantes del Grupo:</h3>
+    <ul>
+        {% for estudiante in integrantes %}
+            <li>{{ estudiante }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
